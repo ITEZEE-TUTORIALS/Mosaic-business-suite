@@ -46,7 +46,7 @@ The solution leverages AI to summarize conversations, store chat histories, and 
 The architecture consists of multiple interconnected components:
 
 1. **Frontend (Mosaic Web Client)**
-    - Built using Angular and hosted on Digital Ocean.
+    - Built using Angular and hosted on the cloud.
     - Provides a responsive user interface.
     - Accessible via this link: [Mosaic Web Client](https://mosaic-web-client-v2-s7yq7.ondigitalocean.app)
 
@@ -65,9 +65,9 @@ The architecture consists of multiple interconnected components:
     - Stores chat histories securely.
     - Utilizes the Mosaic Configs for personalized settings.
 
-6. **Third-Party Integrations**
-    - Firebase authentication for user management.
-    - Deployed on Heroku for staging environments.
+
+
+
 
 ---
 
@@ -75,9 +75,8 @@ The architecture consists of multiple interconnected components:
 
 - **Frontend:** Angular, Tailwind CSS
 - **Backend:** Python (Flask/FastAPI)
-- **AI Services:** Custom LLM model, AI Summarizer
-- **Hosting:** Digital Ocean
-- **Authentication:** Firebase
+- **AI Services:** ChatGPT, Custom LLM model, AI Summarizer
+- **Hosting:** Digital Ocean, Heroku, Local server
 - **Containerization:** Docker
 - **CI/CD:** GitHub Actions
 
@@ -88,8 +87,8 @@ The architecture consists of multiple interconnected components:
 The Mosaic AI solution is deployed across different environments:
 
 - **Frontend Production:** [Mosaic Web Client on Digital Ocean](https://mosaic-web-client-v2-s7yq7.ondigitalocean.app)
-- **Backend API:** Hosted on Digital Ocean
-- **Staging Environments:** Managed using Heroku for testing
+- **Backend API:** Cloud based Hosting
+- **Staging Environments:** Managed using Heroku and Local Server for testing
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
