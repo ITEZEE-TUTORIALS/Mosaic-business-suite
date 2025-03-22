@@ -1,5 +1,3 @@
-# Mosaic-business-suite
-
 # Mosaic AI Business Solution
 
 <a id="readme-top"></a>
